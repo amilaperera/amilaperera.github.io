@@ -1,5 +1,4 @@
-# Index
-## In progress
+# My Pages
 
-+ [Joining Threads](docs/joining_threads.md)]
++ [Joining Threads](docs/joining_threads.md)
 
