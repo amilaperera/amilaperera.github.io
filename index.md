@@ -1,5 +1,5 @@
 # Index
 ## In progress
 
-+ [a relative [Text](docs/threads_joining.md)]
++ [Joining Threads](docs/joining_threads.md)]
 
