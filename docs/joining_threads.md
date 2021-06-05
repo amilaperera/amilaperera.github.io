@@ -14,11 +14,15 @@ explicit thread(Func&& func, Args&& ... args); // 2
 
 ```
 
- 1. The _default constructed_ thread does not represent any underlying thread of execution.
+  1. The _default constructed_ thread does not represent any underlying thread of execution.
 
- 2. The thread constructor receives a callable object as the parameter along with the arguments that
+  2. The thread constructor receives a callable object as the parameter along with the arguments that
   are passed to callable object. Once the thread object is constructed a new thread of execution
   is already started which executes `func` function with the `args` arguments.
+
+Once a thread is started, you need to explicitly decide one of the following,
+  1. wait for the thread to finish _i.e._ join with the thread
+  2. leave to run on its own _i.e._ put the thread into a detached state
 
 ## What is thread joining
 
